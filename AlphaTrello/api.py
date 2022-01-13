@@ -204,6 +204,7 @@ class CommentViewSet(viewsets.ModelViewSet):
             self.perform_destroy(comment)
             return Response(status=status.HTTP_204_NO_CONTENT)
 
+#
 
 class ImageViewSet(viewsets.ModelViewSet):
     queryset = Image.objects.all()

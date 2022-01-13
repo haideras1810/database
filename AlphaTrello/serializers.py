@@ -4,7 +4,7 @@ from .models import News, Document, Image, Comment, Poll, Poll_Option, Link, Boa
 from accounts.serializers import UserSerializer
 
 
-
+#
 
 class NewsSerializer(serializers.ModelSerializer):
     class Meta:

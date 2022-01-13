@@ -6,3 +6,4 @@ urlpatterns = [
     path('', include('AlphaTrello.urls')),
     path('', include('accounts.urls'))
 ]
+#

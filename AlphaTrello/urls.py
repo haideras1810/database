@@ -7,7 +7,7 @@ from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 router = routers.DefaultRouter()
 
-#router.register('api/boards/<int:board_id>/images', ImageViewSet)
+#router.register('api/boards/<int:board_id>/images', ImageViewSet) 
 router.register('api/boards', BoardViewSet)
 router.register('api/boards/<int:board_id>/links', LinkViewSet)
 urlpatterns = [

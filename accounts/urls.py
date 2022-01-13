@@ -7,3 +7,5 @@ urlpatterns = [
     path('api/auth/register', RegisterAPI.as_view()),
     path('api/auth/login', LoginAPI.as_view())
 ]
+
+#
